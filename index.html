@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <title>ConceptX Restaurant</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Mynerve&display=swap');
+            body{
+                margin: 0;
+                font-family: 'Mulish', sans-serif;
+                color: #289944;
+                
+            }
+            a{
+                color: inherit;
+                text-decoration: none;
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #289944;
+                color: white;
+                padding: 10px 200px;
+            }
+
+            header h1{
+                font-family: 'Mynerve', cursive;
+                transition-duration: 0.5s;
+            }
+
+
+            header a{
+                background-color: white;
+                color: #289944;
+                padding: 10px 30px;
+                transition-duration: 0.5s;
+            }
+
+            header a:hover{
+                transform: scale(1.05);
+            }
+
+            .content{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 150px 0;
+            }
+
+            .content h3{
+                font-size: 70px;
+                text-transform: uppercase;
+                font-weight: lighter;
+                transition-duration: 0.5s;
+            }
+
+            .content h3:hover{
+                letter-spacing: 10px;
+            }
+
+            .content img{
+                border-radius: 20px;
+                transition-duration: 0.5s;
+            }
+
+            .content img:hover{
+                transform: scale(1.05);
+            }
+
+            .foods{
+                display: flex;
+                justify-content: center;
+                gap:50px;
+                flex-wrap: wrap;
+                padding: 0 200px;
+                background-color: #289944;
+                padding-bottom: 150px;
+            }
+
+            .foods img{
+                height: 200px;
+                border-radius: 50px;
+                transition-duration: 0.5s;
+            }
+
+            .foods img:hover{
+                transform: scale(0.9);
+            }
+
+            .foodHeader{
+                background-color: #289944;
+                color: white;
+                margin: 0;
+                text-align: center;
+                padding:100px 0;
+                font-size: 50px;
+                font-weight: lighter;
+                text-transform: uppercase;
+                transition-duration: 0.5s;
+            }
+
+            .foodHeader:hover{
+                letter-spacing: 5px;
+            }
+
+            .delivery{
+                display: flex;
+                padding: 150px 200px ;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .delivery h3{
+                font-size: 50px;
+                font-weight: lighter;
+                text-align: right;
+                transition-duration: 0.5s;
+            }
+
+            .delivery h3:hover{
+                letter-spacing: 5px;
+            }
+
+            .delivery img{
+                width: 500px;
+                border-radius: 20px;
+                transition-duration: 0.5s;
+            }
+
+            .delivery img:hover{
+                transform: scale(1.05);
+            }
+
+            h4{
+                background-color: #289944;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>ConceptX Restaurant</h1>
+            <a href="">Order</a>
+        </header>
+
+        <div class="content">
+            <h3>Enjoy <br> the taste</h3>
+            <img src="restaurant.jpg" alt="">
+        </div>
+        <h2 class="foodHeader">The best things we can offer</h2>
+        <div class="foods">
+            <img src="food.jpg" alt="">
+            <img src="food.jpg" alt="">
+            <img src="food.jpg" alt="">
+            <img src="food.jpg" alt="">
+        </div>
+
+        <div class="delivery">
+            <img src="delivery.jpg" alt="">
+            <h3>We also have <br> Delivery Service</h3>
+        </div>
+
+        <h4>Thanks for visitng us</h4>
+    </body>
+</html>
